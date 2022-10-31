@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid gray;
+    margin: 50px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 60vh;
+    width: 400px;
+    background-color: rgb(250, 201, 184);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents > h1 {
+    width: 140px;
+    display: flex;
+    align-self: center;
+    margin: auto;
+    color:white;
+    padding-left: 20px;
+    background-color: darkblue;
+    border-radius: 30px;
+    
+}
+.forms {
+    padding: 10px 0;
+}
+
+.forms .username {
+    padding: 10px 0;
+}
+
+.forms .username input {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+    text-indent: 20px;
+}
+.forms .password input {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+    text-indent: 20px;
+}
+.forms .username i {
+    position:absolute;
+    left: 170px;
+    top:275px
+}
+.forms .password i {
+    position:absolute;
+    left: 170px;
+    top:340px
+}
+.forms .password {
+    padding: 10px 0;
+}
+
+.forms button {
+    margin: 0 50px;
+    padding: 7px 25px;
+    border-radius: 20px;
+    background-color: rgb(76, 238, 76)
+}
